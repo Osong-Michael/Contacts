@@ -1,0 +1,26 @@
+@import "@coreui/coreui/scss/coreui";
+
+.contact-list-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.sign-in-form {
+    max-width: 600px;
+    margin: 300px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
