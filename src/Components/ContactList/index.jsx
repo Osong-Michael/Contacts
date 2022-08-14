@@ -38,7 +38,6 @@ const ContactList = () => {
       deleteContact(contactId);
       closeModal();
     };
-    console.log('ID: ', contactId);
     return (
         <CModal visible={visible} alignment='center'>
           <CModalBody>Are you sure you want to delete this contact?</CModalBody>
